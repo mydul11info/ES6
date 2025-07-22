@@ -24,3 +24,14 @@ function add(num1=0, num2=0) {
     return result
 };
 console.log(add(20, 30));
+
+
+
+// -----------------------Practics 2----------
+
+
+const evenLengthNames = (friends) => friends.filter(name => name.length % 2 === 0);
+
+const friends = ['Fiha', 'Nuha', 'Chris', 'Alif', 'jon'];
+const result = evenLengthNames(friends);
+console.log(result);
